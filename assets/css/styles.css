@@ -927,3 +927,99 @@ video[poster] {
     margin: 0 auto;
     max-width: 600px;
 }
+
+.coach-modal {}
+
+.coach-modal .modal-content {
+    padding: var(--space-60-fourxl);
+    width: 900px;
+}
+
+.coach-detail {
+    align-items: flex-start;
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+}
+
+.coach-detail img {
+    width: 178px;
+}
+
+.coach-detail-info {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-32-xl);
+}
+
+.coach-detail-info h4 {
+    align-items: center;
+    color: var(--color-111111-balck);
+    display: flex;
+    font-size: var(--font-title-24-lg);
+}
+
+.coach-detail-info h4 span {
+    align-items: center;
+    color: var(--color-00c1de-primary-active);
+    display: flex;
+    font-size: var(--font-20-xl);
+}
+
+.coach-detail-info h4 span::before {
+    background: var(--color-CCCCCC-line);
+    content: '';
+    display: inline-block;
+    height: 20px;
+    margin: 0 var(--space-8-xxs);
+    width: 2px;
+}
+
+.coach-detail-info h4 span::after {
+    background: var(--color-CCCCCC-line);
+    content: '';
+    display: inline-block;
+    height: 20px;
+    margin: 0 0 0 var(--space-8-xxs);
+    width: 2px;
+}
+
+.coach-detail-info .dl-group {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-20-md);
+}
+
+.coach-detail-info .dl-group dl {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4-min);
+}
+
+.coach-detail-info .dl-group dl dt {
+    align-items: center;
+    color: var(--color-00c1de-primary-active);
+    display: flex;
+    font-size: var(--font-20-xl);
+    font-weight: var(--font-700-bold);
+    gap: var(--space-8-xxs);
+    text-align: left;
+}
+
+.coach-detail-info .dl-group dl dt::before {
+    background: var(--color-00c1de-primary-active);
+    border-radius: var(--radius-full);
+    content: '';
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+}
+
+.coach-detail-info .dl-group dl dd {
+    color: var(--color-111111-balck);
+    font-size: var(--font-16-md);
+    font-weight: var(--font-400-regular);
+    line-height: 32px;
+    text-align: left;
+}
