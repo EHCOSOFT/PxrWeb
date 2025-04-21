@@ -391,7 +391,7 @@ main {
 .header .header-logo {
     align-items: center;
     display: flex;
-    padding: 0 60px 0 0;
+    padding: 0 162px 0 0;
 }
 
 .header .header-logo img {
@@ -401,7 +401,7 @@ main {
 .header .navbar>ul {
     align-items: center;
     display: flex;
-    width: 800px;
+    width: 720px;
 }
 
 .header .navbar>ul>li {
@@ -434,6 +434,7 @@ main {
 .header .header-login {
     align-items: center;
     display: flex;
+    flex: 0 0 auto;
     gap: var(--space-16-sm);
 }
 
@@ -444,14 +445,14 @@ main {
 
 .header .header-login li a {
     color: var(--color-1b1464-primary);
-    font-size: var(--font-16-md);
+    font-size: var(--font-15-sm);
     font-weight: var(--font-700-bold);
 }
 
 .header .header-login li a.btn-login {
     border: 1px solid var(--color-1b1464-primary);
     border-radius: var(--radius-8-sm);
-    padding: var(--space-4-min) var(--space-16-sm);
+    padding: var(--space-4-min) var(--space-12-xs);
 }
 
 .header .header-login li a.btn-login:active {
@@ -474,8 +475,7 @@ main {
 }
 
 .header-submenu .container {
-    max-width: 800px;
-    padding: 0;
+    max-width: 760px;
 }
 
 .header-submenu ul {

@@ -764,6 +764,7 @@ video[poster] {
 .plan-list .plan-item {
     display: flex;
     flex-direction: column;
+    flex: 1;
     gap: var(--space-60-fourxl);
     margin: var(--space-40-xxl) 0 0 0;
 }
@@ -1317,4 +1318,8 @@ video[poster] {
     height: 52px;
     margin: 0 auto;
     width: 130px;
+}
+
+.sub-sec-10 img {
+    width: 100%;
 }
